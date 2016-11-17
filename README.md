@@ -3,6 +3,7 @@ An implementation of "Superpixel Segmentation Using Linear Spectral Clustering" 
 
 We are very happy if you can cite our paper:
 
+``` bibtex
 >@Article{GLSC,
 >  author="Ban, Zhihua and Liu, Jianguo and Fouriaux, Jeremy",
 >  title="{GLSC}: {LSC} superpixels at over 130 {FPS}",
@@ -11,6 +12,7 @@ We are very happy if you can cite our paper:
 >  issn="1861-8219",
 >  doi="10.1007/s11554-016-0651-6"
 >}
+```
 
 
 
