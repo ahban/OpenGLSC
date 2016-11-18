@@ -16,7 +16,7 @@ can execute the following command in your **cmd**.
 ``` batch
 %comspec% /k ""Your\VisualStudio\Path\VC\vcvarsall.bat"" amd64
 cd .\build
-namke 
+nmake 
 ```
 
 We are very happy if you can cite our paper,
