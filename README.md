@@ -7,8 +7,12 @@ Linux using a compiler with **C++11** support.
 
 to execute the app, you need to use the following command.
 ``` batch
-GLSC.exe 118035.jpg 16
+GLSC.exe 118035.jpg 10
 ```
+
+![](rest.png)
+
+
 
 If you want to compile the code by your self, you have to install **OpenCV 2.4.X** and 
 **Visual Studio 2013**. And modify the **Makefile** in *./build* folder the corresponding pathes, and then you 
