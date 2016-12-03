@@ -2,15 +2,16 @@
 An implementation of "Superpixel Segmentation Using Linear Spectral Clustering" on GPU
 
 We provide an executable file in ./bin, source code in ./src and Makefile in ./build
-This code support only 64-bit Windows for now but you can compile it on Linux with c++11 support. 
+This code supports only **64-bit Windows for now**, however, you can compile it on 
+Linux using a compiler with **C++11** support. 
 
 to execute the app, you need to use the following command.
 ``` batch
 GLSC.exe 118035.jpg 16
 ```
 
-If you want to compile the code by your self, you have to install OpenCV 2.4.X and 
-Visual Studio. And modify the Makefile in build folder the corresponding pathes. and then you 
+If you want to compile the code by your self, you have to install **OpenCV 2.4.X** and 
+**Visual Studio 2013**. And modify the **Makefile** in *./build* folder the corresponding pathes, and then you 
 can execute the following command in your **cmd**.
 
 ``` batch
