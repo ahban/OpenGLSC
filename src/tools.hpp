@@ -21,7 +21,8 @@
 
 #ifndef __TOOLS_HPP__
 #define __TOOLS_HPP__
-
+// disable C4519.
+#pragma warning(1 : 4519) 
 
 #include <iostream>
 #include <vector>
