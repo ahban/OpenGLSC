@@ -17,6 +17,7 @@ GLSC.exe 118035.jpg 10
 * clean the code. some useless code should be removed.
 * remove platform dependent stuff.
 
+# Compile the code
 If you want to compile the code by your self, you have to install **OpenCV 2.4.X** and 
 **Visual Studio 2013**. And modify the **Makefile** in *./build* folder the corresponding pathes, and then you 
 can execute the following command in your **cmd**.
@@ -26,7 +27,7 @@ can execute the following command in your **cmd**.
 cd .\build
 nmake 
 ```
-
+# Citation
 We are very happy if you can cite our paper,
 
 ``` bibtex
