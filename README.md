@@ -13,6 +13,9 @@ GLSC.exe 118035.jpg 10
 ![](rest.png)
 
 
+# To Do List
+* clean the code. some useless code should be removed.
+* remove platform dependent stuff.
 
 If you want to compile the code by your self, you have to install **OpenCV 2.4.X** and 
 **Visual Studio 2013**. And modify the **Makefile** in *./build* folder the corresponding pathes, and then you 
