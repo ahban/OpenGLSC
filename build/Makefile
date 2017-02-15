@@ -3,8 +3,8 @@ TARGET=..\bin\GLSC.exe
 OPENCV_INC=K:\OpenCV\2.4.10\include
 OPENCV_LIB=K:\OpenCV\2.4.10\x64\vc12.0\lib
 
-CUDA_INC=D:\soft\x64\cuda\7.0\Toolkit\include
-CUDA_LIB=D:\soft\x64\cuda\7.0\Toolkit\lib\x64
+CUDA_INC=%CUDA_PATH%\include
+CUDA_LIB=%CUDA_PATH%\lib\x64
 
 
 all:

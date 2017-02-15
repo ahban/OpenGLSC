@@ -25,8 +25,13 @@ public:
 
   int merge_small_regions(HMati &labels, int min_size){
 
-    const int dx4[] = { +1, -1, 0, 0 };
-    const int dy4[] = { 0, 0, +1, -1 };
+    //const int ddx[] = { +1, -1, 0, 0 };
+    //const int ddy[] = { 0, 0, +1, -1 };
+    //const int ndd = 4;
+    
+    const int ddx[] = { -1, 0, 1, -1, 1, -1, 0, 1 };
+    const int ddy[] = { -1, -1, -1, 0, 0, 1, 1, 1 };
+    const int ndd = 8;
 
     const int width  = labels.m_width;
     const int height = labels.m_height;
@@ -61,9 +66,9 @@ public:
 
 
         // find a adjacent label
-        for (int d = 0; d < 4; d++){
-          int xx = m_cx[0] + dx4[d];
-          int yy = m_cy[0] + dy4[d];
+        for (int d = 0; d < ndd; d++){
+          int xx = m_cx[0] + ddx[d];
+          int yy = m_cy[0] + ddy[d];
           // boundary check
           if (xx < 0 || xx >= width || yy < 0 || yy >= height) continue;
           int tpid = yy*steps + xx;
@@ -74,9 +79,9 @@ public:
         // if has no new label, count the number 
         int count = 1;
         for (int c = 0; c < count; c++){
-          for (int d = 0; d < 4; d++){
-            int xx = m_cx[c] + dx4[d];
-            int yy = m_cy[c] + dy4[d];
+          for (int d = 0; d < ndd; d++){
+            int xx = m_cx[c] + ddx[d];
+            int yy = m_cy[c] + ddy[d];
             // boundary check
             if (xx < 0 || xx >= width || yy < 0 || yy >= height) continue;
             int tpid = yy*steps + xx;
