@@ -55,6 +55,6 @@ The original paper is:
 
 
 
-**Note: this source code only can be used in noncommercial research.**
+**Note: this source code is under BSD license.**
 
 **If you have any question about this code, please do not hesitate to contact me at sawpara at 126.com**
